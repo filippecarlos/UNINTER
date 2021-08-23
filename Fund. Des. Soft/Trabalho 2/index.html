@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pizza Planet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            
+        </style>
+    </head>    
+    
+    <body>
+        <div style="overflow-x:auto;">
+            <div id="imagem" id="logo"style="background-color: aquamarine;">
+                <img src="./img.png" alt="Logo Pizza Planet" id="imagem"><!--IMG LOGO-->
+            </div>                    
+<!--Inicio da Tabela-->
+            <table style="width:100%">
+<!--Inicio da campo nome-->
+                <tr>
+                    <td id="nome">Nome</td>
+                    <td style="background-color: rgb(204, 98, 12)"  > 
+                        <form action="/action_page.php">                        
+                            <input type="text"  name="fname" id="nomeimput">                    
+                        </form>
+                    </td>
+                </tr>
+<!--Fim da campo nome--> 
+<!--Inicio da campo Tamanho-->              
+                <tr>
+                    <td> Tamanho</td>
+                    <td> 
+                        <form>
+                          <input type="radio" id="#" name="fav_language" >
+                          <label for="html">Grande</label><br>
+                          <input type="radio" id="#" name="fav_language" >
+                          <label for="css">Médio</label><br>
+                          <input type="radio" id="#" name="fav_language" >
+                          <label for="javascript">Pequeno</label>
+                        </form>     
+                    </td>
+                </tr>           
+<!--Fim da campo Tamanho-->  
+<!--Inicio da campo Sabor-->                  
+                <tr>
+                    <td id="sabor"> Sabor</td>
+                    <td style="background-color: rgb(204, 98, 12)" >
+                        <label></label>
+                            <select id="#" name="sabores">
+                                <option value="saab">Selecione o sabor</option>  
+                                <option value="Mussarela">Mussarela</option>
+                                <option value="Queijo">Queijo</option> 
+                                <option value="Calabresa">Calabresa</option>  
+                                <option value="Atum">Atum</option>                     
+                            </select>
+                    </td>
+                </tr>           
+<!--Fim da campo Sabor-->
+<!--Inicio da campo Adicionais-->                     
+                <tr>
+                    <td> Adicionais</td>
+                    <td>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="#" name="borda">
+                            <label for="vehicle1"> Borda</label><br>
+                            <input type="checkbox" id="#" name="Queijo">
+                            <label for="vehicle1"> Queijo</label><br>
+                        </form> 
+                    </td>
+                </tr>    
+<!--Fim da campo Adicionais-->          
+<!--Inicio da campo Observações-->   
+                <tr>
+                    <td id="obs"> Observações</td>
+                    <td style="background-color: rgb(204, 98, 12); padding: auto;">                      
+                        <form action="/action_page.php">
+                            <textarea name="message" rows="10" cols="182" ></textarea>      
+                        </form>                                        
+                    </td>
+                </tr>                
+            </table>
+<!--Fim da campo Observações-->
+          
+<!--Fim da Tabela-->
+<!--Inicio da campo botão-->
+            <div id="bordabt">
+                <button id="botao" type="button" onclick="Cadastro Realizado">Enviar</button>
+            </div>
+<!--Fim da campo botão-->
+        </div>
+    </body>
+</html>

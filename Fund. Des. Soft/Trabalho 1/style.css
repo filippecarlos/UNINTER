@@ -1,0 +1,33 @@
+
+/*Estrutura de formatação para o paragréfo*/
+p{
+    font-size: 3pc; /*Tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*"book antiqua, arial narrow*//*Estilo da fonte*/ 
+    color: green;/*Cor da fonte*/ 
+}
+
+/*Estrutura de formatação para o azul*/
+#azul{
+    color: blue;/*Cor da fonte*/ 
+    font-family: Arial, Helvetica, sans-serif; /*"bookman old style*//*Estilo da fonte*/ 
+    font-size: 5pc;/*Tamanho da fonte*/
+}
+
+/*Estrutura de formatação para o vermelho*/
+#vermelho{
+    color: red;/*Cor da fonte*/ 
+    font-family: Arial, Helvetica, sans-serif; /*"bookman old style*//*Estilo da fonte*/ 
+    font-size: 5pc;/*Tamanho da fonte*/
+}
+
+/*
+Obs 1 . Como não foi definido o estilo do tamanho do texto eu optei por (pc).
+Obs 2 . Meu pc não reconhece essas fontes, não sei se é por causa de eu estar usando o linux ubunto.
+        Tentei bimportar do google fonts mas está dando erro e não reconhece, por isso deixei (Sans-serif) como padrão.
+*/
+
+
+
+
+
+

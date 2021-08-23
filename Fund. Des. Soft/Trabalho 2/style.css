@@ -1,0 +1,40 @@
+
+#nome, #sabor, #obs, #sabor2{
+    background-color: rgb(204, 98, 12); /*Cor tema*/
+}
+
+table, th, td {
+    border: 1px solid black; /*Cor tema da tabela*/
+    border-collapse: collapse; /*borda*/
+    width: 50px; /*Largura*/
+    margin-left: auto; /*Margem*/
+    margin-right: auto;/*Margem*/
+}
+
+#imagem{  
+    background-color: aquamarine; /*Cor tema*/
+    display: block; /*posicionamento*/
+    margin-left: auto; /*margem em relação a pagina*/
+    margin-right: auto /*margem em relação a pagina*/
+}
+
+#botao{
+    cursor: pointer; /*mestilo do botão*/
+    border-radius: 4px; /*bordado botão*/
+    height:20px; /*altura botão*/
+    width:100px; /*largura botão*/
+    margin: -20px -50px; /*margem*/
+    position:relative; /*posição do botão*/
+    top:50%; /*posição do botão topo*/
+    left:50%; /*posição do botão esquerda*/ 
+    border: 1px solid black; /*expessura da borda, tipo solido e cor*/ 
+    border-collapse: collapse; /*borda do botão*/ 
+    margin-left: auto; /*posição do botão esquerda*/ 
+    margin-right: auto; /*posição do botão direita*/ 
+    padding: 3px; /*distancia de espaço*/ 
+}
+
+#nomeimput{
+    width: 1500px; /*largura da caixa input do nome*/
+}
+
